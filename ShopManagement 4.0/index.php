@@ -35,7 +35,7 @@ $_SESSION['message']="You must login first!";
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="View/logincustomer.php">Products</a></li>
+                    <li><a href="View/login.php">Products</a></li>
                     <li><a href="View/aboutus.php">About</a></li>
                     <li><a href="View/contactus.php">Contact</a></li>
                     <li><a href="View/login.php">Account</a></li>
