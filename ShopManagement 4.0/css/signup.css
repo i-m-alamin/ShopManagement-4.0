@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+select{
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    border: 2px solid #DC7633;
+}
+
+.formbox .error_msg{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color: red;
+    background: #FFE5E5;
+    /* border-bottom: 2px solid red; */
+    /* border-top: 2px solid red; */
+    border-radius: 5px;
+    margin: auto;
+}
+
+.navSection{
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #778899;
+    margin: auto;
+}
+
+.navSection img {
+    margin-right: 20px;
+    width: 20px;
+    height: auto;
+}
+
+.logo img{
+    width: 60px;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #DC7633;
+}
+
+a:active{
+    color: #DC7633;
+}
+
+.cartIcon:active{
+    background:white;
+}
+
+p{
+    color: #555;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+.header_content img{
+    align-items: center;
+    width: 200px;
+}
+
+.content_section{
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* border-bottom: 2px solid #DC7633; */
+    /* border: 2px solid #DC7633; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #DC7633;
+}
+
+a:active{
+    color: #DC7633;
+}
+
+.container{
+    width: 50%;
+    height: 700px;
+    background: #fff;
+    margin: 0 auto;
+    /* border: 2px solid #DC7633; */
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+    margin-top: 40px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    height: 700px;
+    background: url("../images/Logoimg.png");
+    background-image: cover;
+    /* background-size: cover; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    height: 700px;
+    box-sizing: border-box;
+}
+
+.formbox{
+    width: 100%;
+    /* padding: 80px 40px; */
+    padding: 40px 40px;
+    box-sizing: border-box;
+    height: 700px;
+    background: #fff;
+}
+
+.formbox a {
+    color: #DC7633;
+}
+
+.formbox a:hover {
+    color: cornflowerblue;
+}
+
+.formbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #DC7633;
+}
+
+.formbox input{
+    /* margin-bottom: 20px; */
+    margin: 0;
+}
+
+.formbox input[type="text"], .formbox input[type="password"], .formbox input[type="date"]
+{
+    border: none;
+    border-bottom: 2px solid #DC7633;
+    outline: none;
+    height: 20px;
+    width: 100%;
+    /* font-weight: lighter; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+}
+
+.formbox input[type="text"]:focus, .formbox input[type="password"]:focus, .formbox input[type="date"]:focus
+{
+    border-bottom: 2px solid black;
+}
+
+.formbox input[type="password"]
+{
+    margin-bottom: 10px;
+}
+
+.formbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: white;
+    background: #DC7633;
+    float: left;
+}
+.formbox input[type="date"]
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-bottom: 2px solid #DC7633;
+
+}
+
+/* font */
+
+/* .formbox input[type="text"]
+{
+    font-family: 'Poppins', sans-serif;
+} */
+
+.formbox input[type="submit"]:hover{
+    background: black;
+}
+
+.errorMsg
+{
+    font-weight: bold;
+    font-size: 14px;
+    /* padding-bottom: 20px; */
+    color: red;
+    height: 40px;
+    float: right;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    width:100%;
+    margin: 100px 0 0 0; 
+    display: flex;
+    align-items: center;
+}
+.footer_content{
+    flex: wrap;
+    width: 70%;
+    margin: auto;
+    padding: 40px 25px;
+    display: flex;  
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    flex-basis: 25%;
+    padding: 0 10px;
+    min-width: 300px;
+    margin-right: 60px;
+}
+.footer-col-4 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.footer-col-3 img{
+    text-align: center;
+    width: 150px;
+    height: auto;
+}
