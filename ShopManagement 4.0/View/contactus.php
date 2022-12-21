@@ -64,7 +64,7 @@
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.."
                         style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
+                    <a href="login.php"><input type="submit" value="Submit">
                 </form>
             </div>
         </div>
